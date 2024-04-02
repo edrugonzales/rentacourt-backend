@@ -1,0 +1,2 @@
+# m h  dom mon dow   command
+0 1 * * * . /home/mapi/.bashrc; /home/mapi/pg_backups/backup.sh > /tmp/backup.log 2>&1
